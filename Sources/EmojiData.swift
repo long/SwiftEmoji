@@ -256,18 +256,18 @@ open class EmojiData {
     ]
     
     open static let SequencePatterns:[String] = [
-        "\\u0023\\u20E3",    // (#️⃣) keycap number sign
-        "\\u002A\\u20E3",    // (*⃣) keycap asterisk
-        "\\u0030\\u20E3",    // (0️⃣) keycap digit zero
-        "\\u0031\\u20E3",    // (1️⃣) keycap digit one
-        "\\u0032\\u20E3",    // (2️⃣) keycap digit two
-        "\\u0033\\u20E3",    // (3️⃣) keycap digit three
-        "\\u0034\\u20E3",    // (4️⃣) keycap digit four
-        "\\u0035\\u20E3",    // (5️⃣) keycap digit five
-        "\\u0036\\u20E3",    // (6️⃣) keycap digit six
-        "\\u0037\\u20E3",    // (7️⃣) keycap digit seven
-        "\\u0038\\u20E3",    // (8️⃣) keycap digit eight
-        "\\u0039\\u20E3",    // (9️⃣) keycap digit nine
+        "\\u0023.{0,1}\\u20E3",    // (#️⃣) keycap number sign
+        "\\u002A.{0,1}\\u20E3",    // (*⃣) keycap asterisk
+        "\\u0030.{0,1}\\u20E3",    // (0️⃣) keycap digit zero
+        "\\u0031.{0,1}\\u20E3",    // (1️⃣) keycap digit one
+        "\\u0032.{0,1}\\u20E3",    // (2️⃣) keycap digit two
+        "\\u0033.{0,1}\\u20E3",    // (3️⃣) keycap digit three
+        "\\u0034.{0,1}\\u20E3",    // (4️⃣) keycap digit four
+        "\\u0035.{0,1}\\u20E3",    // (5️⃣) keycap digit five
+        "\\u0036.{0,1}\\u20E3",    // (6️⃣) keycap digit six
+        "\\u0037.{0,1}\\u20E3",    // (7️⃣) keycap digit seven
+        "\\u0038.{0,1}\\u20E3",    // (8️⃣) keycap digit eight
+        "\\u0039.{0,1}\\u20E3",    // (9️⃣) keycap digit nine
         "\\U0001F1E6\\U0001F1E8",    // (🇦🇨) flag for Ascension Island
         "\\U0001F1E6\\U0001F1E9",    // (🇦🇩) flag for Andorra
         "\\U0001F1E6\\U0001F1EA",    // (🇦🇪) flag for United Arab Emirates
