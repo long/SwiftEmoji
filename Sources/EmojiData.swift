@@ -13,9 +13,9 @@
 open class EmojiData {
     
     open static let EmojiPatterns:[String] = [
-        "\\u0023",    // [1] (#️)      NUMBER SIGN
-        "\\u002A",    // [1] (*)       ASTERISK
-        "[\\u0030-\\u0039]",    // [10] (0️..9️)  DIGIT ZERO..DIGIT NINE
+        // "\\u0023",    // [1] (#️)      NUMBER SIGN
+        // "\\u002A",    // [1] (*)       ASTERISK
+        // "[\\u0030-\\u0039]",    // [10] (0️..9️)  DIGIT ZERO..DIGIT NINE
         "\\u00A9",    // [1] (©️)      COPYRIGHT SIGN
         "\\u00AE",    // [1] (®️)      REGISTERED SIGN
         "\\U0001F004",    // [1] (🀄️)      MAHJONG TILE RED DRAGON
